@@ -1,5 +1,5 @@
 # Omniscient Video Super-Resolution
-This is the official code of OVSR (Omniscient Video Super-Resolution, ICCV 2021).
+This is the official code of [OVSR (Omniscient Video Super-Resolution, ICCV 2021)](https://openaccess.thecvf.com/content/ICCV2021/html/Yi_Omniscient_Video_Super-Resolution_ICCV_2021_paper.html).
 This work is based on [PFNL](https://github.com/psychopa4/PFNL).
 
 ## Datasets
@@ -7,7 +7,7 @@ Please refer to [PFNL](https://github.com/psychopa4/PFNL) for the datasets (trai
 Please modify the datapath in ./data/*.txt according to your machine. 
 
 ## Pre-Trained Models
-Download the [pre-trained models](https://www.terabox.com/web/share/link?surl=4DfhKLDw9j0G6RZtHtzQzw) and put them to ./checkpoint/ .
+Download the pre-trained models from [mainland China](https://pan.baidu.com/s/1-qv1Io91JtcCv0-x7Q8Auw) with password: inub, or [elsewhere](https://www.terabox.com/web/share/link?surl=4DfhKLDw9j0G6RZtHtzQzw).
 
 ## Code
 It should be easy to use train.sh or main.py for training or testing, note to change the hyper-parameters in options/ovsr.yml .
