@@ -2,23 +2,30 @@
 This is the official code of OVSR (Omniscient Video Super-Resolution, ICCV 2021).
 This work is based on [PFNL](https://github.com/psychopa4/PFNL).
 
+## Datasets
+Please refer to [PFNL](https://github.com/psychopa4/PFNL) for the datasets (train, eval and test).
+Please modify the datapath in ./data/*.txt according to your machine. 
+
+## Pre-Trained Models
+Download the [pre-trained models](https://www.terabox.com/web/share/link?surl=4DfhKLDw9j0G6RZtHtzQzw) and put them to ./checkpoint/ .
+
 ## Code
-Code will be released as soon as it is organized.
+It should be easy to use train.sh or main.py for training or testing, note to change the hyper-parameters in options/ovsr.yml .
 
 ## Environment
   - Python >= 3.6
-  - PyTorch >= 1.6
-
+  - PyTorch, tested on 1.9, but should be fine when >=1.6
 
 ## Citation
 If you find our code or datasets helpful, please consider citing our related works.
 ```
-@inproceedings{OVSR,
-  title={Omniscient Video Super-Resolution},
-  author={Yi, Peng and Wang, Zhongyuan and Jiang, Kui and Jiang, Junjun and Lu, Tao and Tian, Xin and Ma, Jiayi},
-  booktitle={IEEE International Conference on Computer Vision (ICCV)},
-  pages={},
-  year={2021},
+@InProceedings{Yi_2021_ICCV_OVSR,
+    author    = {Yi, Peng and Wang, Zhongyuan and Jiang, Kui and Jiang, Junjun and Lu, Tao and Tian, Xin and Ma, Jiayi},
+    title     = {Omniscient Video Super-Resolution},
+    booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {4429-4438}
 }
 
 @ARTICLE{MSHPFNL,
